@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html,
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", "Tahoma", "Verdana", sans-serif;
+  font-size: 14px;
+  background-color: $color_light-blue;
+  color: $color_dark;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1145px;
+  margin: 0 auto;
+}

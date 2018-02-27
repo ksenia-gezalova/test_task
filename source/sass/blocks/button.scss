@@ -1,0 +1,20 @@
+.button {
+  display: block;
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: $color_light;
+  background-color: $color_orange;
+  padding: 15px 40px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}

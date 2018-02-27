@@ -1,0 +1,45 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "test task execution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "npm run build && gulp serve",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksenia-gezalova/test_task.git"
+  },
+  "author": "Gezalova Ksenia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksenia-gezalova/test_task/issues"
+  },
+  "homepage": "https://github.com/ksenia-gezalova/test_task#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.0.0",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gh-pages": "^1.1.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^2.2.1"
+  }
+}

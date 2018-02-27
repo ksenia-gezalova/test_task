@@ -1,0 +1,42 @@
+.page__title {
+  color: $color_dark;
+  font-size: 51px;
+  font-weight: lighter;;
+}
+
+.page__subtitle {
+  color: $color_dark;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.page__wrapper {
+  display: flex;
+  //justify-content: space-between;
+}
+
+.page__name {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.page__content {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 40px;
+}
+
+.page__link {
+  font-size: 16px;
+  color: $color_orange;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}

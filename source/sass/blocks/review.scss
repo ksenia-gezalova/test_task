@@ -1,0 +1,62 @@
+.review {
+  background-color: $color_light;
+  padding-left: 25px;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  margin-bottom: 95px;
+}
+
+.review__author {
+  color: black;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.review__info {
+  color: $color_light-gray;
+  font-size: 14px;
+}
+
+.review__author--five::after {
+  content: "";
+  background-image: url("../img/five.png");
+  width: 76px;
+  height: 13px;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.review__text {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.review__link {
+  display: block;
+  color: $color_orange;
+  text-decoration: none;
+  border-bottom: 1px dashed $color_orange;
+  width: 180px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: "";
+    background-image: url("../img/arrow.png");
+    width: 13px;
+    height: 13px;
+    background-repeat: no-repeat;
+    display: block;
+    flex-shrink: 0;
+    margin-right: 5px;
+    border: none;
+  }
+}
+
+.review__button {
+  background-color: #eb5825;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 35px;
+}
