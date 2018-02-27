@@ -188,7 +188,9 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
   padding: 25px;
   width: 28%;
-  height: 473px; }
+  height: 473px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
 
 .recommend__title {
   color: #4b4b4b;
